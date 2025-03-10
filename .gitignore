@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment folders
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code and PyCharm project files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore logs and temporary files
+*.log
+*.bak
+*.swp
+*.tmp
